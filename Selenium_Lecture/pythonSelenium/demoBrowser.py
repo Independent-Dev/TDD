@@ -2,8 +2,8 @@ from selenium import webdriver
 
 # browser exposes an executable file
 # Through Selenium test we need to invoke the executable file which will then invoke actual browser 
-# driver = webdriver.Chrome(executable_path='/Users/jonathan/study/TDD/Selenium_Lecture/chromedriver')
-driver = webdriver.Firefox(executable_path='/Users/jonathan/study/TDD/Selenium_Lecture/geckodriver')
+driver = webdriver.Chrome(executable_path='/Users/jonathan/study/TDD/Selenium_Lecture/chromedriver')
+# driver = webdriver.Firefox(executable_path='/Users/jonathan/study/TDD/Selenium_Lecture/geckodriver')
 
 driver.get("https://www.youtube.com/")
 print(driver.title, driver.current_url)
