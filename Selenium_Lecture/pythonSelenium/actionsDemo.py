@@ -13,4 +13,5 @@ action = ActionChains(driver)
 driver.implicitly_wait(5)
 action.double_click(driver.find_element_by_tag_name('button')).perform()
 
-driver.switch_to.alert()
+alert = driver.switch_to.alert()
+alert.accept()
