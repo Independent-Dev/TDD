@@ -54,6 +54,6 @@ amounts = driver.find_elements_by_xpath("//tr/td[5]/p")
 # 여기서 부동소수점 덧셈은 정확성을 보장할 수 있을 것인가..??
 sum_all = sum(float(amount.text) for amount in amounts)
 assert sum_all == float(driver.find_element_by_class_name("totAmt").text)
-print(sum_all)
+
     
 driver.close()
