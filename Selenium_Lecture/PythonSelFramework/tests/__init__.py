@@ -1,0 +1,3 @@
+# PythonSelFramework에서 pytest -m e2e 명령을 실행할 때 이 파일을 추가하니까 ModuleNotFoundError: No module named 'pageObject'에러가 나지 않음. 
+# from pageObject.HomePage import HomePage
+# 왜인지는 모르겠음...
